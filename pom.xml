@@ -4,10 +4,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<!-- groupID must be the business group ID or ORGID -->
-	<groupId>471d9b56-9917-4cc3-be01-527639aba5db</groupId>
+	<groupId>4be87e39-82bd-4f1b-be6a-82e12510552f</groupId>
 	<artifactId>cicd-cloudhub2-java17</artifactId>
 	<!-- This version is immutable, need to bump for every deployment-->
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<packaging>mule-application</packaging>
 
 	<name>cicd-cloudhub2-java17</name>
@@ -41,12 +41,13 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Target Name as in the documentation US East Ohio -->
-						<target>Cloudhub-US-East-2</target>
+						<target>cloudhub-eu-central-1</target>
 						<!-- mule version format muleruntime-java17 -->
 						<!-- If not provided, will choose the latest Edge version -->
-						<muleVersion>4.9.2:6e-java17</muleVersion>
+						<!-- <muleVersion>4.9.2:6e-java17</muleVersion>  -->
 						<!-- Authentication to do the deployment -->
 						<!-- Connected Apps, clientid and secret for CI Server -->
+						<releaseChannel>EDGE</releaseChannel>
 						<!-- <connectedAppClientId>${ca_client_id}</connectedAppClientId>-->
 						<!-- <connectedAppClientSecret>${ca_client_secret}</connectedAppClientSecret>-->
 						<!-- <connectedAppGrantType>client_credentials</connectedAppGrantType>-->
