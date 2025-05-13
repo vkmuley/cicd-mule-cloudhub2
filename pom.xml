@@ -7,7 +7,7 @@
 	<groupId>4be87e39-82bd-4f1b-be6a-82e12510552f</groupId>
 	<artifactId>cicd-cloudhub2-java17</artifactId>
 	<!-- This version is immutable, need to bump for every deployment-->
-	<version>1.0.3</version>
+	<version>1.0.4</version>
 	<packaging>mule-application</packaging>
 
 	<name>cicd-cloudhub2-java17</name>
@@ -41,7 +41,7 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Target Name as in the documentation US East Ohio -->
-						<target>cloudhub-us-east-2</target>
+						<target>Cloudhub-US-East-2</target>
 						<!-- mule version format muleruntime-java17 -->
 						<!-- If not provided, will choose the latest Edge version -->
 						<!-- <muleVersion>4.9.2:6e-java17</muleVersion>  -->
