@@ -41,7 +41,7 @@
 						<provider>MC</provider>
 						<environment>${environment}</environment>
 						<!-- Target Name as in the documentation US East Ohio -->
-						<target>cloudhub-eu-central-1</target>
+						<target>Cloudhub-EU-Central-1</target>
 						<!-- mule version format muleruntime-java17 -->
 						<!-- If not provided, will choose the latest Edge version -->
 						<!-- <muleVersion>4.9.2:6e-java17</muleVersion>  -->
